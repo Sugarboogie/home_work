@@ -1,9 +1,9 @@
-def task_1() -> None:   
-    my_int = 42                # int
-    my_float = 3.14            # float
-    my_str = "Hello, World !"  # str
-    my_list = [1, 2, 3, 4, 5]  # list
-    my_bool = True             # bool
+def task_1():   
+    my_int = 42                
+    my_float = 3.14            
+    my_str = "Hello, World !"  
+    my_list = [1, 2, 3, 4, 5]  
+    my_bool = True            
 
     print("Тип my_int:", type(my_int))
     print("Тип my_float:", type(my_float))
@@ -14,7 +14,7 @@ def task_1() -> None:
 
 task_1()
 
-def task_2() -> None:  
+def task_2():  
     a = [1, 2, 3, 5, 8, 13, 21]
     
   
