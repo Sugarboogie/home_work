@@ -20,3 +20,31 @@ for i, rect in enumerate([rect1, rect2, rect3], start=1):
     print(f"Прямоугольник {i}:")
     print(f"  Площадь: {rect.area()}")
     print(f"  Периметр: {rect.perimeter()}")
+
+
+
+class Math:
+    def __init__(self, a, b):
+        self.a = a
+        self.b = b
+
+    def addition(self):
+        result = self.a + self.b
+        print(f"Сложение: {self.a} + {self.b} = {result}")
+
+    def multiplication(self):
+        result = self.a * self.b
+        print(f"Умножение: {self.a} * {self.b} = {result}")
+
+    def division(self):
+        if self.b != 0:
+            result = self.a / self.b
+            print(f"Деление: {self.a} / {self.b} = {result}")
+        else:
+            print("Ошибка: Деление на ноль!")
+
+    def subtraction(self):
+        result = self.a - self.b
+        print(f"Вычитание: {self.a} - {self.b} = {result}")
+
+
